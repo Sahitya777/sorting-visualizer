@@ -11,11 +11,11 @@
     margin-right: 2%;
     padding-left: 2%;
     padding-right: 2%;
-    border-radius: 50vw;
+    border-radius: 60vw;
     font-size: medium;
     color: white;
     background-color: black;
-    transition: 0.3s;
+    transition: 0.3s all ease;
   }
   
   @media only screen and (max-width: 510px) {
@@ -40,25 +40,26 @@
     font-style: bold;
     border-width: 0.3vh;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s all ease;
   }
   
   .buttonStyle1:hover {
-    border-color: green;
-    color: green;
+    border-color: rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
   }
   
   .buttonStyle2:hover {
-    border-color: peru;
-    color: peru;
+    border-color: rgb(255, 128, 0);
+    color: rgb(255, 128, 0);
   }
   
   #reset {
-    opacity: 0.6;
-    background-color: orangered;
+    opacity: 0.7;
+    background-color: rgb(255, 60, 0);
   }
   #reset:hover {
-    opacity: 0.9;
+    opacity: 1;
+    transition: 0.3s  ease;
   }
   
   button:disabled,
