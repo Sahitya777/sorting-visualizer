@@ -1,5 +1,5 @@
 #range-slider {
-    height: 9%;
+    height: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     transition: visibility 0.4s linear, opacity 0.4s linear;
